@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart Summary</title>
+    <link rel="stylesheet" href="./src/css/main.css">
+    <script src="./src/js/data.js" defer></script>
+    <script src="./src/js/cart.js" defer></script>
+    <script src="https://kit.fontawesome.com/96fccda491.js" crossorigin="anonymous" defer></script>
+</head>
+
+<body>
+
+    <header class="navbar">
+        <a href="index.html" target="_self">
+            <h1>Clothing Store</h1>
+        </a>
+
+        <a href="cart.html" target="_self">
+            <div class="cart">
+                <i class="fa-solid fa-cart-shopping"></i>
+                <div class="cart-amount" id="cart-amount">0</div>
+            </div>
+        </a>
+        
+    </header>
+
+    <main class="cart-main">
+        <div class="text-center" id="label"></div>
+
+        <div class="shopping-cart" id="shopping-cart"></div>
+    </main>
+    
+</body>
+</html>
